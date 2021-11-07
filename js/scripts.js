@@ -11,9 +11,8 @@ $(document).ready(function() {
     secondFavoriteThings.push(allOfYourFavoriteThings[1]);
 
     function splitUpArray(allOfYourFavoriteThings) {
-      $("ul").prepend("<li>" + allOfYourFavoriteThings[0]);
-      $("ul").prepend("<li>" + allOfYourFavoriteThings[1]);
-      //$("ul").prepend("<li>" + allOfYourFavoriteThings[2]);
+      $("ul").append("<li>" + allOfYourFavoriteThings[0]);
+      $("ul").append("<li>" + allOfYourFavoriteThings[1]);
       return 0;
     }
     splitUpArray(allOfYourFavoriteThings);
