@@ -17,6 +17,11 @@ $(document).ready(function() {
     }
     splitUpArray(allOfYourFavoriteThings);
 
+    //Same as above function except now using forEach
+    allOfYourFavoriteThings.forEach(function(thing) {
+      $("ul").append("<li>" + thing);
+    });
+
     //const arrayOfThingsILike = ["bubble baths", "kittens", "good books", "clean code"];
     //arrayOfThingsILike.forEach(function(thing) {
     //$("#likable-things").append(" " + thing + "!");
