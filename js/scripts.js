@@ -16,5 +16,11 @@ $(document).ready(function() {
       return 0;
     }
     splitUpArray(allOfYourFavoriteThings);
+
+    //const arrayOfThingsILike = ["bubble baths", "kittens", "good books", "clean code"];
+    //arrayOfThingsILike.forEach(function(thing) {
+    //$("#likable-things").append(" " + thing + "!");
+    //});
+
   })
 })
