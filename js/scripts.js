@@ -10,13 +10,12 @@ $(document).ready(function() {
     allOfYourFavoriteThings.push(favorite1, favorite2);
     secondFavoriteThings.push(allOfYourFavoriteThings[1]);
 
-//$("ul").prepend("<li>allOfYourFavoriteThings[0]");
-function splitUpArray(allOfYourFavoriteThings) {
-  $("ul").prepend("<li>" + allOfYourFavoriteThings[0]);
-  $("ul").prepend("<li>" + allOfYourFavoriteThings[1]);
-  return 0;
-}
-splitUpArray(allOfYourFavoriteThings);
-
+    function splitUpArray(allOfYourFavoriteThings) {
+      $("ul").prepend("<li>" + allOfYourFavoriteThings[0]);
+      $("ul").prepend("<li>" + allOfYourFavoriteThings[1]);
+      //$("ul").prepend("<li>" + allOfYourFavoriteThings[2]);
+      return 0;
+    }
+    splitUpArray(allOfYourFavoriteThings);
   })
 })
